@@ -51,6 +51,6 @@
 ![GAMBAR](gambar23.png)
 5. Jika sudah simpan file dengan cara klik menu file di pojok kiri atas pilih "save" atau bisa langsung menggunakan shortcut "ctrl+s".
 6. Selanjutnya buka anaconda prompt kembali, ketik 'git add .' . Lalu ketik git commit -m "link code repository". dan yang terakhir ketik git push.
-
+![GAMBAR](gambar24.png)
 7. Buka repository GitHub dan periksa apakah sudah terupload atau belum. Selesai.
 
