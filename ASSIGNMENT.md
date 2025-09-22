@@ -46,11 +46,12 @@
 2. Copy gambar ke folder repository yang telah dibuat.
 ![GAMBAR](gambar21.png)
 ![GAMBAR](gambar22.png)
-3. Untuk menambahkan gambar kembali ke VSCODE kemudian ketikkan *![TEKSBEBAS](namafilegambar)*
+3. Untuk menambahkan gambar kembali ke VSCODE kemudian ketikkan *![keterangan gambar](nama file gambar yang ingin ditaruh)* seperti contoh dibawah ini.
+![GAMBAR](gambar25.jpeg)
 4. Preview dengan ctrl+shift+v untuk melihat gambar.
 ![GAMBAR](gambar23.png)
 5. Jika sudah simpan file dengan cara klik menu file di pojok kiri atas pilih "save" atau bisa langsung menggunakan shortcut "ctrl+s".
-6. Selanjutnya buka anaconda prompt kembali, ketik 'git add .' . Lalu ketik git commit -m "link code repository". dan yang terakhir ketik git push.
+6. Selanjutnya buka anaconda prompt kembali, ketik 'git add .' . Lalu ketik git commit -m "link code repository". dan yang terakhir ketik git push atau git push origin main.
 ![GAMBAR](gambar24.png)
 7. Buka repository GitHub dan periksa apakah sudah terupload atau belum. Selesai.
 
