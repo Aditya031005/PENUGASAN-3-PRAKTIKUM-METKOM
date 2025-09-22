@@ -1,31 +1,56 @@
 **LANGKAH - LANGKAH MEMBUAT REPOSITORY :**
-Buka www.github.com lalu masuk ke classroom yang telah ada.
-![GAMBAR]("Screenshot (190).png")
-Klik tanda "+" dibagian kanan atas kemudian klik "New Repository".
-![GAMBAR]("Screenshot (191).jpeg")
-Akan muncul tampilan seperti dibawah ini, isikan bagian Repository name, Description, dan aktifkan READ ME.
-![GAMBAR]("gambar 4.jpeg")
-Jika semua sudah dilakukan klik tombol "Create repository".
-![GAMBAR]("gambar 3.jpeg")
-Lalu kembali ke beranda dan klik garis tiga pojok kiri atas dan pilih repository yang tadi telah dibuat.
+1. Buka www.github.com lalu masuk ke classroom yang telah ada.
+![GAMBAR](gambar1.png)
+2. Klik tanda "+" dibagian kanan atas kemudian klik "New Repository".
+![GAMBAR](gambar2.jpeg)
+3. Akan muncul tampilan seperti dibawah ini, isikan bagian Repository name, Description, dan aktifkan READ ME.
+![GAMBAR](gambar4.jpeg)
+4. Jika semua sudah dilakukan klik tombol "Create repository".
+![GAMBAR](gambar3.jpeg)
+5. Disini akan muncul repository yang telah anda buat. Selesai.
+![GAMBAR](gambar5.png)
 
-Disini akan muncul repository yang telah anda buat. Selesai.
+**LANGKAH - LANGKAH MENAMBAHKAN REPOSITORY KE FILE UNTUK DIMASUKKAN KE DALAM VSCODE :**
+1. Buka anaconda prompt lalu ketik "dir" akan muncul tampilan seperti dibawah ini.
+![GAMBAR](gambar6.jpeg)
+2. Pilih tempat dimana folder penyimpanan berada misalkan documents,download, dsb. dengan cara ketikkan *cd "Tempat Folder Berada"*.
+![GAMBAR](gambar7.jpeg)
+3. Kemudian pilih folder penyimpanan yang akan digunakan dengan cara ketikkan *cd "Nama Folder"*.
+![GAMBAR](gambar8.jpeg)
+4. Kembali ke Github lalu klik "code" yang berwarna hijau kemudian copy link repositorynya.
+![GAMBAR](gambar9.png)
+5. Selanjutnya silahkan kembali lagi ke anaconda prompt lalu ketikkan *git clone* dan paste link repository yang tadi.
+![GAMBAR](gambar12.jpeg)
+6. Jika sudah, ketik "dir" dan pilih folder repository yang telah dibuat dengan cara ketikkan *cd Nama Repository*.
+![GAMBAR](gambar11.jpeg)
+7. Lalu ketikkan *git config --global user.email "email yang digunakan"*.
+![GAMBAR](gambar10.jpeg)
+8. Lalu ketikkan *git init*. Selesai.
+![GAMBAR](gambar13.jpeg)
 
-**LANGKAH - LANGKAH MENAMBAHKAN REPOSITORY KE FILE UNTUK DIMASUKKAN KE DALAM VSCODE**
-Buka anaconda prompt lalu ketik "dir" akan muncul tampilan seperti dibawah ini.
-Pilih tempat dimana folder penyimpanan berada misalkan documents,download, dsb. dengan cara ketikkan *cd "Tempat Folder Berada"*.
-Kemudian pilih folder penyimpanan yang akan digunakan dengan cara ketikkan *cd "Nama Folder"*.
-Kembali ke Github lalu klik "code" yang berwarna hijau kemudian copy link repositorynya.
-Selanjutnya silahkan kembali lagi ke anaconda prompt lalu ketikkan *git clone* dan paste link repository yang tadi.
-Jika sudah, ketik "dir" dan pilih folder repository yang telah dibuat dengan cara ketikkan *cd Nama Repository*.
-Lalu ketikkan *git config --global user.email "email yang digunakan"*.
-Lalu ketikkan *git init*. Selesai.
+**LANGKAH - LANGKAH MEMBUAT README :**
+1. Buka VSCode dan klik menu file di pojok kiri atas lalu klik "Open Folder".
+![GAMBAR](gambar14.png)
+2. Cari dan pilih file folder repository yang sudah dibuat dengan cara klik file fordernya kemudian klik "Select Folder".
+![GAMBAR](gambar15.png)
+3. Selanjutnya klik README.md dan isi profil READ ME sesuai yang diinginkan.
+![GAMBAR](gambar16.png)
+4. Kemudian simpan file dengan cara klik menu file di pojok kiri atas pilih "save" atau bisa langsung menggunakan shortcut "ctrl+s". Selesai.
+![GAMBAR](gambar17.png)
 
-**LANGKAH - LANGKAH MEMBUAT README**
-Buka VSCode dan klik menu file di pojok kiri atas lalu klik "Open Folder".
-Cari dan pilih file folder repository yang sudah dibuat dengan cara klik file fordernya kemudian klik "Select Folder".
-Selanjutnya klik README.md dan isi profil READ ME sesuai yang diinginkan.
-Kemudian simpan file dengan cara klik menu file di pojok kiri atas pilih "save" atau bisa langsung menggunakan shortcut "ctrl+s". Selesai.
+**LANGKAH - LANGKAH MEMBUAT MARKDOWN DAN MENAMBAHKAN GAMBAR :**
+1. Klik "New File" dan beri nama pada file markdown tersebut.
+![GAMBAR](gambar18.png)
+![GAMBAR](gambar19.png)
+![GAMBAR](gambar20.png)
+2. Copy gambar ke folder repository yang telah dibuat.
+![GAMBAR](gambar21.png)
+![GAMBAR](gambar22.png)
+3. Untuk menambahkan gambar kembali ke VSCODE kemudian ketikkan *![TEKSBEBAS](namafilegambar)*
+4. Preview dengan ctrl+shift+v untuk melihat gambar.
+![GAMBAR](gambar23.png)
+5. Jika sudah simpan file dengan cara klik menu file di pojok kiri atas pilih "save" atau bisa langsung menggunakan shortcut "ctrl+s".
+6. Selanjutnya buka anaconda prompt kembali, ketik 'git add .' . Lalu ketik git commit -m "link code repository". dan yang terakhir ketik git push.
 
-**LANGKAH - LANGKAH MEMBUAT MARKDOWN DAN MENAMBAHKAN GAMBAR KE REPOSITORY**
-Klik "New File" dan beri nama pada file markdown tersebut.
+7. Buka repository GitHub dan periksa apakah sudah terupload atau belum. Selesai.
+
